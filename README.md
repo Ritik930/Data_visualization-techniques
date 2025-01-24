@@ -31,25 +31,6 @@ The project includes the following visualizations:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/Lung-Cancer-Data-Visualization.git
-  ### **Steps for Uploading to GitHub**
-1. **Create a GitHub Repository:**
-   - Go to [GitHub](https://github.com/).
-   - Click on "New" to create a repository.
-   - Name it `Lung-Cancer-Data-Visualization`.
-   - Add a description (e.g., "Visualizing lung cancer data using Python libraries").
-   - Initialize with a `.gitignore` for Python (optional).
-
-2. **Upload Files:**
-   - Include the following files:
-     - `visualization.ipynb`: Your notebook file.
-     - `survey lung cancer.csv`: The dataset.
-     - `README.md`: The project documentation.
-
-3. **Push Files from Local Machine (Optional):**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit for Lung Cancer Data Visualization"
-   git branch -M main
-   git remote add origin https://github.com/yourusername/Lung-Cancer-Data-Visualization.git
-   git push -u origin main
+2. Open the visualization.ipynb file in Jupyter Notebook or Google Colab.
+3. Upload the dataset (survey lung cancer.csv) if not already present.
+4. Run the cells sequentially to generate the visualizations.
